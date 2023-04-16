@@ -109,7 +109,7 @@ export default function ChatContainer() {
         
          <div style={{display:'flex', flexDirection:"row", justifyContent: 'space-between'}} >
           <h4>Username: {user}</h4>
-          <strong>Remember to Subscribe to  <a href='https://www.youtube.com/channel/UCmoQtgmJ2SHEAPCAR1Q8TBA'> My Channel</a></strong>
+          <strong>Remember to Subscribe to  <a href='https://www.youtube.com/@F8VNOfficial'> My Channel</a></strong>
           <p onClick={()=> logout()} style={{color:"blue", cursor:'pointer'}} >Log Out</p>
            </div>
             <ChatsList
@@ -121,7 +121,7 @@ export default function ChatContainer() {
         }
 
     <div style={{margin:10 , display:'flex', justifyContent:'center'}} >
-    <small style={{backgroundColor:'lightblue' , padding:5 , borderRadius:5}} >Interested in some 1 on 1 Coding Tutorials and Mentorship. Lets chat on Discord: <strong> kutlo_sek#5370 </strong></small>
+    <small style={{backgroundColor:'lightblue' , padding:5 , borderRadius:5}} >Interested in some 1 on 1 Coding Tutorials and Mentorship. </strong></small>
         
     </div>
      
